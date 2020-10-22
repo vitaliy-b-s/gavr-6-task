@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css/style.css" />
+  </head>
+  <body>
+    <div class="app__container">
+      <div class="mobile-buttons">
+        <button class="mobile-button" data-id="superurgent">Сверхсрочные</button>
+        <button class="mobile-button" data-id="urgent">Сделать сегдня</button>
+        <button class="mobile-button" data-id="regular">Можно отложить</button>
+      </div>
+      <div class="categories__container">
+        <div class="category__container superurgent">
+          <span class="category__name">СВЕРХСРОЧНЫЕ</span>
+          <ul class="list-of-tasks"></ul>
+          <textarea class="task-value" placeholder="Введите заметку"></textarea>
+          <button class="add-task">Добавить</button>
+        </div>
+        <div class="category__container urgent">
+          <span class="category__name">Сделать сегодня</span>
+          <ul class="list-of-tasks"></ul>
+          <textarea class="task-value" placeholder="Введите заметку"></textarea>
+          <button class="add-task">Добавить</button>
+        </div>
+        <div class="category__container regular">
+          <span class="category__name">Можно отложить</span>
+          <ul class="list-of-tasks"></ul>
+          <textarea class="task-value" placeholder="Введите заметку"></textarea>
+          <button class="add-task">Добавить</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
